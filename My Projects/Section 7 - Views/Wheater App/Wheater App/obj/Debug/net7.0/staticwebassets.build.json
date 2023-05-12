@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "PoFOdyvFW1fdpg35j0zc8qRQzg5sz9IzhuNpdib6+2I=",
+  "Source": "WheaterApp",
+  "BasePath": "_content/WheaterApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WheaterApp\\wwwroot",
+      "Source": "WheaterApp",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 7 - Views\\Wheater App\\Wheater App\\wwwroot\\",
+      "BasePath": "_content/WheaterApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 7 - Views\\Wheater App\\Wheater App\\wwwroot\\StyleSheet.css",
+      "SourceId": "WheaterApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 7 - Views\\Wheater App\\Wheater App\\wwwroot\\",
+      "BasePath": "_content/WheaterApp",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

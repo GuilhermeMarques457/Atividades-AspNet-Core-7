@@ -1,0 +1,57 @@
+﻿@*@model ListModel*@
+
+<h1>Index</h1>
+
+<button class="button button-blue-back" type="button" id="button-load">Load Programming languages</button>
+<div class="box programming-languages-content"></div>
+
+
+<script>
+    document.getElementById("button-load")
+    .addEventListener("click", async function(){
+        //It makes an async request to the controller
+        var response = await fetch("ProgrammingLanguages");
+        var languages = await response.text();
+        document.querySelector(".programming-languages-content").innerHTML = languages;
+    })
+</script>
+
+@*@{
+    taking the object from the object model passed from the controller
+    ListModel listModel = new ListModel();
+    listModel = Model;
+}
+
+
+<partial name="_ListPartialView" model="listModel"></partial>*@
+@*<partial name="_ListPartialView" />*@
+
+@{
+
+    //changing the view data
+    //ViewBag.ListTitle = "Cities";
+    //ViewBag.ListItems = new List<string>()
+    //        {
+    //            "Pracinha",
+    //            "Lucelia",
+    //            "Florida",
+    //            "Adamantina"
+    //        };
+
+    //var myViewData = new ViewDataDictionary(ViewData);
+    //myViewData["ListTitle"] = "Cities";
+    //myViewData["ListItems"] = new List<string>()
+    //        {
+    //            "Pracinha",
+    //            "Lucelia",
+    //            "Florida",
+    //            "Adamantina"
+    //        };
+}
+
+
+
+@*
+//calling the partial view as an async method
+@await Html.PartialAsync("_ListPartialView")
+*@

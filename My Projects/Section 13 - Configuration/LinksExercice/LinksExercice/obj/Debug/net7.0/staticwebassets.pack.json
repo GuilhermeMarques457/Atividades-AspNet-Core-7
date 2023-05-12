@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\LinksExercice\\LinksExercice\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LinksExercice.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LinksExercice.props",
+      "PackagePath": "build\\LinksExercice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LinksExercice.props",
+      "PackagePath": "buildMultiTargeting\\LinksExercice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LinksExercice.props",
+      "PackagePath": "buildTransitive\\LinksExercice.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

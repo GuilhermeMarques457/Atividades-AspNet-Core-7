@@ -1,0 +1,5 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 7 - Views\Wheater App\CitiesService\obj\Debug\net7.0\WeatherService.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 7 - Views\Wheater App\CitiesService\obj\Debug\net7.0\WeatherService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 7 - Views\Wheater App\CitiesService\obj\Debug\net7.0\WeatherService.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 7 - Views\Wheater App\CitiesService\obj\Debug\net7.0\WeatherService.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 7 - Views\Wheater App\CitiesService\obj\Debug\net7.0\WeatherService.csproj.CoreCompileInputs.cache

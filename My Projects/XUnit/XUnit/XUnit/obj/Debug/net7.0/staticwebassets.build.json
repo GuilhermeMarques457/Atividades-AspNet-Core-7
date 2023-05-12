@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "b3pp1FxXy6+SFn1RzNIkMWKZxI9Qs47IZzUlfYeMjHg=",
+  "Source": "XUnit",
+  "BasePath": "_content/XUnit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "XUnit\\wwwroot",
+      "Source": "XUnit",
+      "ContentRoot": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\",
+      "BasePath": "_content/XUnit",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\StyleSheet.css",
+      "SourceId": "XUnit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\",
+      "BasePath": "_content/XUnit",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

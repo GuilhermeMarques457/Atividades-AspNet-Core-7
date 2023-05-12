@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "KNrpMu+sK027N9AldZoUnRrbR7rQyDM675Bb49DJyjU=",
+  "Source": "ViewComponentWowo",
+  "BasePath": "_content/ViewComponentWowo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponentWowo\\wwwroot",
+      "Source": "ViewComponentWowo",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\",
+      "BasePath": "_content/ViewComponentWowo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\JavaScript.js",
+      "SourceId": "ViewComponentWowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\",
+      "BasePath": "_content/ViewComponentWowo",
+      "RelativePath": "JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JavaScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponentWowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\",
+      "BasePath": "_content/ViewComponentWowo",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

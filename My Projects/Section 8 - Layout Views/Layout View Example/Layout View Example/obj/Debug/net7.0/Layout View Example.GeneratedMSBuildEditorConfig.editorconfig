@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Layout_View_Example
+build_property.RootNamespace = Layout_View_Example
+build_property.ProjectDir = C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 8 - Layout Views\Layout View Example\Layout View Example\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 8 - Layout Views\Layout View Example\Layout View Example
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Home/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Products/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Products/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Shared/_LayoutAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Shared/_LayoutSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/Shared/_MasterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXN0ZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Microsoft/Documents/Arquivos Programação/Udemy AspNet.Core 6/My Projects/Section 8 - Layout Views/Layout View Example/Layout View Example/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "+X81UqHF9ZDA54gSw0C/jbpKPmTgKorqAn7+Eid/lVQ=",
+  "Source": "IActionResult",
+  "BasePath": "_content/IActionResult",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionResult\\wwwroot",
+      "Source": "IActionResult",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\IActionResult\\IActionResult\\wwwroot\\",
+      "BasePath": "_content/IActionResult",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\IActionResult\\IActionResult\\wwwroot\\Sample.pdf",
+      "SourceId": "IActionResult",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\IActionResult\\IActionResult\\wwwroot\\",
+      "BasePath": "_content/IActionResult",
+      "RelativePath": "Sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ]
+}

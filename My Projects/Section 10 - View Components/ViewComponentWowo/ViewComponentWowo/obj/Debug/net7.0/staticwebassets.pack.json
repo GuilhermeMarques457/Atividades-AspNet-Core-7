@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\JavaScript.js",
+      "PackagePath": "staticwebassets\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 10 - View Components\\ViewComponentWowo\\ViewComponentWowo\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ViewComponentWowo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ViewComponentWowo.props",
+      "PackagePath": "build\\ViewComponentWowo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ViewComponentWowo.props",
+      "PackagePath": "buildMultiTargeting\\ViewComponentWowo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ViewComponentWowo.props",
+      "PackagePath": "buildTransitive\\ViewComponentWowo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

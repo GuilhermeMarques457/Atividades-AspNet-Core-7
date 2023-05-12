@@ -1,0 +1,112 @@
+﻿
+@model List<Person>
+
+@{
+    
+
+    //string alertMessage = $"<script>alert('{people.Count} people found')</script>";
+
+    ////Local funtion
+    //string? GetDescription(string? Description)
+    //{
+    //    if (Description != null)
+    //    {
+    //        return $"You are {Description}";
+    //    }
+    //    else
+    //    {
+    //        return "What in the hell are you?";
+    //    }
+    //}
+
+    //Person person = new Person() { Name = "Guilherme", Description = null, Gender = Gender.Male };
+}
+
+@functions{
+    //Method
+    string? GetDescription(string? Description)
+    {
+        if (Description != null)
+        {
+            return $"You are {Description}";
+        }
+        else
+        {
+            return "What in the hell are you?";
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        @*<title>@ViewData["appTitle"]</title>*@
+        <title>@ViewBag.Title</title>
+        <meta charset="utf-8" />
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="page-content">
+            @*@Html.Raw(alertMessage);*@
+            <h1>Persons</h1>
+            @{
+            //List<Person>? people = (List<Person>?)ViewData["people"];
+            //List<Person>? people = ViewBag.people;
+        }
+        @foreach (var person in Model)
+            {
+                //Static tags
+                @* @:Hello to*@
+                <div class="box  w-50 float-left">
+                    @*Static tags*@
+                <h3><text>Hello to</text> @person.Name</h3>
+                    <table class="table w-100">
+                        <tbody>
+                            <tr>
+                                <td>Gender</td>
+                                <td>@person.Gender</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Description</td>
+                            <td>@GetDescription(person.Description)</td>
+                            </tr>
+                        </tbody>
+                    
+                    </table>
+                    <div>
+                        <a href="/details/@person.Name">Details</a>
+                    </div>
+                    <div>
+                        <a href="/person-with-product">Person with Product</a>
+                    </div>
+                    
+                    
+                </div>
+            }
+
+                @*<h1>Welcome @person.Name</h1>*@
+            @*@if (person.Description == null)
+            {
+                <h2>Are you nothing?</h2>
+            }
+            else
+            {
+                <h2>WOW How can you be so @person.Description</h2>
+            }
+
+            @switch (person.Gender)
+            {
+                case Gender.Male:
+                    <p>You are male</p>
+                    break;
+                case Gender.Female:
+                    <p>You are female</p>
+                    break;
+                default:
+                    <p>What are you?</p>
+                    break;
+            }*@
+        </div>
+    </body>
+</html>

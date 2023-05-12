@@ -1,0 +1,68 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\appsettings.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.exe
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.runtimeconfig.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\DIExample.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\Services.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\bin\Debug\net6.0\Services.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.DIExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.build.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\scopedcss\bundle\DIExample.styles.css
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.csproj.CopyComplete
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\refint\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\DIExample.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\01. Services\DIExample\obj\Debug\net6.0\ref\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\appsettings.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.staticwebassets.runtime.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.exe
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.runtimeconfig.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\DIExample.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\Services.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\Services.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.DIExample.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.build.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DIExample.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\scopedcss\bundle\DIExample.styles.css
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.csproj.CopyComplete
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\refint\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\DIExample.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\obj\Debug\net6.0\ref\DIExample.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\Autofac.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\DIExample\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

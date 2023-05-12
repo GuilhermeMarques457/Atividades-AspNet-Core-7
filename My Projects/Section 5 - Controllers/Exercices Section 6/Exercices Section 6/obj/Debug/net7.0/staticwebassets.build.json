@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "jPvcAMWHLJ9cGC1yf1cmtW+NjJGevuEsHOocvkznQx8=",
+  "Source": "Exercices Section 6",
+  "BasePath": "_content/Exercices Section 6",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Exercices Section 6\\wwwroot",
+      "Source": "Exercices Section 6",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\Exercices Section 6\\Exercices Section 6\\wwwroot\\",
+      "BasePath": "_content/Exercices Section 6",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\Exercices Section 6\\Exercices Section 6\\wwwroot\\Sample.pdf",
+      "SourceId": "Exercices Section 6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 5 - Controllers\\Exercices Section 6\\Exercices Section 6\\wwwroot\\",
+      "BasePath": "_content/Exercices Section 6",
+      "RelativePath": "Sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ]
+}

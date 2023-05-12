@@ -1,0 +1,12 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 11 - Services\DepedencyInjectionExample\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll

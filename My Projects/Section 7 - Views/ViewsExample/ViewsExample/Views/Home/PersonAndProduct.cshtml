@@ -1,0 +1,42 @@
+﻿
+@model PersonWithProductWrapperModel
+
+<!DOCTYPE html>
+<html>
+    <head>
+        @*<title>@ViewData["appTitle"]</title>*@
+        <title>@ViewBag.Title</title>
+        <meta charset="utf-8" />
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="page-content">
+            <div class="box w-100">
+                <h3>Person</h3>
+            <table class="table w-50">
+                <tbody>
+                    <tr>
+                        <td>@Model.Person.Name</td>
+                        <td>@Model.Person.Gender</td>
+                        <td>@Model.Person.Description</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+                 <h3>Product</h3>
+            <table class="table w-50">
+                <tbody>
+                        <tr>
+                    
+                            <td>@Model.Product.Name</td>
+                            <td>@Model.Product.Price</td>
+                            <td>@Model.Product.Description</td>
+                            <td>@Model.Product.Category</td>
+                        </tr>
+                    </tbody>
+
+            </table>
+            </div>
+        </div>
+    </body>
+</html>

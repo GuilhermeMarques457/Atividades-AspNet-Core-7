@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Links";
+}
+
+<h1>Social Media Links</h1>
+
+<p>@ViewBag.Youtube</p>
+
+<a href="@ViewBag.Youtube">Youtube</a>
+<a href="@ViewBag.Facebook">Facebook</a>
+<environment exclude="Development">
+    <a href="@ViewBag.Instagram">Instagram</a>
+</environment>
+
+<a href="@ViewBag.Twitter">Twitter</a>

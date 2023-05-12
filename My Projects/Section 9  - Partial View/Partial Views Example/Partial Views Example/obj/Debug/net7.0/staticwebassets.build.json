@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "o64RLHkMWbGnXvh3AyKknwAjBDmaZ+6AEiayKDzqhNQ=",
+  "Source": "Partial Views Example",
+  "BasePath": "_content/Partial Views Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Partial Views Example\\wwwroot",
+      "Source": "Partial Views Example",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 9  - Partial View\\Partial Views Example\\Partial Views Example\\wwwroot\\",
+      "BasePath": "_content/Partial Views Example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 9  - Partial View\\Partial Views Example\\Partial Views Example\\wwwroot\\StyleSheet.css",
+      "SourceId": "Partial Views Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 9  - Partial View\\Partial Views Example\\Partial Views Example\\wwwroot\\",
+      "BasePath": "_content/Partial Views Example",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

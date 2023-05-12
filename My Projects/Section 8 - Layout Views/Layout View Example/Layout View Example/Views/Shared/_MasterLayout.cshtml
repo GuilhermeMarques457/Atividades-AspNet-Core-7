@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "_MasterLayout";
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.title</title>
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                Asp.net core demo
+            </div>
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </body>
+</html>
+

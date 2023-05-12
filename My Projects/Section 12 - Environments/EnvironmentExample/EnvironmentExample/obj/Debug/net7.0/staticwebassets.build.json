@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "dRM5iMLUTUwd+kUeRCfOvzl3aT4teaoyEF5+DkUuDD0=",
+  "Source": "starter",
+  "BasePath": "_content/starter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "starter\\wwwroot",
+      "Source": "starter",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Starter Files\\Starter\\wwwroot\\",
+      "BasePath": "_content/starter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Starter Files\\Starter\\wwwroot\\StyleSheet.css",
+      "SourceId": "starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Starter Files\\Starter\\wwwroot\\",
+      "BasePath": "_content/starter",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

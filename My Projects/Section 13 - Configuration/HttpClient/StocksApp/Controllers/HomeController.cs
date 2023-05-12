@@ -1,0 +1,45 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using StockApp.Services;
+using StocksApp;
+using StocksApp.Models;
+
+namespace StockApp.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly FinnhubService _finnhubService;
+        private readonly TradingOptions _tradingOptions;
+
+        public HomeController(FinnhubService finnhubService, IOptions<TradingOptions> tradingOptions) 
+        {
+            _finnhubService = finnhubService;
+            _tradingOptions = tradingOptions.Value;
+        }
+
+        [Route("/")]
+        public async Task<IActionResult> Index()
+        {
+            if (_tradingOptions.DefaultStockSymbol == null)
+            {
+                _tradingOptions.DefaultStockSymbol = "MSFT";
+            }
+            Dictionary<string, object> responseDictionary = await _finnhubService.GetStockPriceQuote(_tradingOptions.DefaultStockSymbol);
+            Dictionary<string, object> responseCompany = await _finnhubService.GetCompanyProfile(_tradingOptions.DefaultStockSymbol);
+
+
+            Stock stock = new Stock()
+            {
+                StockSymbol = _tradingOptions.DefaultStockSymbol,
+                CurrentPrice = Convert.ToDouble(responseDictionary["c"].ToString()),
+                HighestPrice = Convert.ToDouble(responseDictionary["h"].ToString()),
+                LowestPrice = Convert.ToDouble(responseDictionary["l"].ToString()),
+                OpenPrice = Convert.ToDouble(responseDictionary["o"].ToString()),
+            };
+
+            return View(stock);
+        }
+
+       
+    }
+}

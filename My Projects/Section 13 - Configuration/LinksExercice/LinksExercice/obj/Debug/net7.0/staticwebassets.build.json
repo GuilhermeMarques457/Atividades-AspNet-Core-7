@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "2r28sdDhdKa+wVyJXs0rN6L963xI3Dyx4KC+qecLX6s=",
+  "Source": "LinksExercice",
+  "BasePath": "_content/LinksExercice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LinksExercice\\wwwroot",
+      "Source": "LinksExercice",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\LinksExercice\\LinksExercice\\wwwroot\\",
+      "BasePath": "_content/LinksExercice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\LinksExercice\\LinksExercice\\wwwroot\\StyleSheet.css",
+      "SourceId": "LinksExercice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\LinksExercice\\LinksExercice\\wwwroot\\",
+      "BasePath": "_content/LinksExercice",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

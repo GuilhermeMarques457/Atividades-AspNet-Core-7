@@ -1,0 +1,26 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\HTTP Exercice.exe
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\HTTP Exercice.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\HTTP Exercice.runtimeconfig.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\HTTP Exercice.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\bin\Debug\net7.0\HTTP Exercice.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets\msbuild.HTTP Exercice.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets\msbuild.build.HTTP Exercice.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HTTP Exercice.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HTTP Exercice.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\scopedcss\bundle\HTTP Exercice.styles.css
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\refint\HTTP Exercice.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\HTTP Exercice.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 3 - HTTP\HTTP Exercice\HTTP Exercice\obj\Debug\net7.0\ref\HTTP Exercice.dll

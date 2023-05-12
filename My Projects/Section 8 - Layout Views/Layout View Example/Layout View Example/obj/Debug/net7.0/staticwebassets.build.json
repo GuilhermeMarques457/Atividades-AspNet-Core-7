@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "9ui65/ZutI7tPcJ6Fk5BIV9YDmAdB0IXIadkb6T10GY=",
+  "Source": "Layout View Example",
+  "BasePath": "_content/Layout View Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Layout View Example\\wwwroot",
+      "Source": "Layout View Example",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 8 - Layout Views\\Layout View Example\\Layout View Example\\wwwroot\\",
+      "BasePath": "_content/Layout View Example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 8 - Layout Views\\Layout View Example\\Layout View Example\\wwwroot\\StyleSheet.css",
+      "SourceId": "Layout View Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 8 - Layout Views\\Layout View Example\\Layout View Example\\wwwroot\\",
+      "BasePath": "_content/Layout View Example",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

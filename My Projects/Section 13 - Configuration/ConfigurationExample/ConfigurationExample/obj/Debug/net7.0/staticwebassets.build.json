@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "aCJTcEUPYbfaZG0yUHYVAUQOhft3H69YRx2amsfX5NY=",
+  "Source": "ConfigurationExample",
+  "BasePath": "_content/ConfigurationExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ConfigurationExample\\wwwroot",
+      "Source": "ConfigurationExample",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\ConfigurationExample\\wwwroot\\",
+      "BasePath": "_content/ConfigurationExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\ConfigurationExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "ConfigurationExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 13 - Configuration\\ConfigurationExample\\wwwroot\\",
+      "BasePath": "_content/ConfigurationExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

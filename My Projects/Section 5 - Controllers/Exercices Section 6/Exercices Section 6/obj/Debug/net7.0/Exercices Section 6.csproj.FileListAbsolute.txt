@@ -1,0 +1,27 @@
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.exe
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.deps.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.runtimeconfig.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.AssemblyInfo.cs
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets\msbuild.Exercices Section 6.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets\msbuild.build.Exercices Section 6.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Exercices Section 6.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Exercices Section 6.props
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\scopedcss\bundle\Exercices Section 6.styles.css
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\refint\Exercices Section 6.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.pdb
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\Exercices Section 6.genruntimeconfig.cache
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\obj\Debug\net7.0\ref\Exercices Section 6.dll
+C:\Users\Microsoft\Documents\Arquivos Programação\Udemy AspNet.Core 6\My Projects\Section 5 - Controllers\Exercices Section 6\Exercices Section 6\bin\Debug\net7.0\Exercices Section 6.staticwebassets.runtime.json

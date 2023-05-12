@@ -1,0 +1,19 @@
+﻿@model List<CityWeather>
+    <h1>Weather</h1>
+
+    <div class="container">
+        @foreach(CityWeather item in Model)
+        {
+            <div class="@item.CityUniqueCode box">
+                <div>
+                    <p>@item.CityName</p>
+                    <p>@item.DateAndTime</p>
+                    <a href="Weather/@item.CityUniqueCode">Details</a>
+                </div>
+                <div>
+                   <p>@item.TemperatureFahrenheit F</p>
+                </div>
+               
+            </div>
+        }
+    </div>
