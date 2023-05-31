@@ -9074,11 +9074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\StocksApp.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\StocksApp.csproj",
       "projectName": "StocksApp",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\StocksApp.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\StocksApp.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"

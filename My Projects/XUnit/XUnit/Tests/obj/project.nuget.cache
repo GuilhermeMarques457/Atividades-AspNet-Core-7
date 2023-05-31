@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+bJkiMzPOXvUC6zTB4jB5SZTKomvdcZNHlByBvgvbbK9k9X8XtsSh1it+nmsgONOJhDiS1e4HkARhsnCoSN1Q==",
+  "dgSpecHash": "O0Hc/K2mGenvYiaXjwGt8wyXvfDHbg/g4dmgSEa+q074/0ega8uR2aBSGmBXfkPCEzL4Elke01lWC0OU3gJTww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Microsoft\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Microsoft\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

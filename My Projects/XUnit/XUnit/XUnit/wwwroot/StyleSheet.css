@@ -355,11 +355,13 @@ a.link-hover:hover
 
 .button
 {
-    padding: 8px 12px;
+    transition: 0.3s all;
+    padding: 8px 20px;
     border: 2px solid #cacaca;
-    border-radius: 8px;
+    border-radius: 5px;
     outline: 3px solid #ffffff;
     font-size: 101%;
+    cursor: pointer
 }
 
 .button-blue-back
@@ -444,3 +446,49 @@ a.link-hover:hover
         width: auto;
     }
 }
+
+.create-person-form {
+    padding: 20px 20px;
+}
+
+.form-field {
+    padding: 10px 0px;
+}
+
+.form-field-input {
+    padding: 10px 0px;
+}
+
+.form-field-input input, .form-field-input select, .form-field-input textarea{
+    width: 70%;
+    border: 1px solid #aaa !important;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 8px;
+    transition: box-shadow 0.2s;
+    margin-top: 5px;
+}
+
+.form-field label {
+    font-size: 18px;
+}
+
+.select-input {
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.select-input div{
+    gap: 10px;
+    display: flex;
+}
+
+.checkbox-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+

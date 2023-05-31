@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X6PcjjVSQqoOKe1D1nKnFGx0Mq1qCNWMEbbiejBhvwuuwPYpW/PsxMA3YqHSZDIDUN23/4nje5gNLE3NjUOu7g==",
+  "dgSpecHash": "3t6xS355Ik3DU+skkA/w9Jk0LYoEQ15e0XF8RbNraDPrJpjxwRvPvHZZNKRWzk7QEBt2KeL9LvktC5im5u7Zbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

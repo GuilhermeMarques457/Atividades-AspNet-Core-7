@@ -1,0 +1,49 @@
+﻿@model StocksApp.Models.SellBuyVM
+
+@{
+    ViewData["Title"] = "SeeOrders";
+}
+
+<h1>SeeOrders</h1>
+
+<div> 
+    <div class="grid-orders">
+        <div class="orders-box">
+            <p class="order-title">Buy Orders</p>
+             @foreach (var item in Model.BuyOrders)
+            {
+                <div class="order-item">
+                    <div class="info">
+                        <span>@item.StockName</span>
+                        <span>@item.StockSymbol</span>
+                    </div>
+                    <p><b>@item.Quantity</b> shares at <b>@item.Price</b></p>
+                    <div>
+                        <p class="trade-text">Trade Amount : <b>@item.TradeAmout</b></p>
+                    </div>
+                    <p>@item.DateAndTimeOfOrder</p>
+                </div> 
+            }
+        </div>
+        <div class="orders-box">
+            <p class="order-title">Sell Orders</p>
+             @foreach (var item in Model.SellOrders)
+            {
+                <div class="order-item">
+                    <div class="info">
+                        <span>@item.StockName</span>
+                        <span>@item.StockSymbol</span>
+                    </div>
+                    <p><b>@item.Quantity</b> shares at <b>@item.Price</b></p>
+                    <div>
+                        <p class="trade-text">Trade Amount : <b>@item.TradeAmout</b></p>
+                    </div>
+                    <p>@item.DateAndTimeOfOrder</p>
+                </div> 
+            }
+        </div>
+       
+    </div>
+    
+</div>
+

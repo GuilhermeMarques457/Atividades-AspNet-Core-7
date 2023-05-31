@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "ServiceContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ServiceContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "ServiceContracts/1.0.0": {
+      "type": "project",
+      "path": "../ServiceContracts/ServiceContracts.csproj",
+      "msbuildProject": "../ServiceContracts/ServiceContracts.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Entities >= 1.0.0",
+      "ServiceContracts >= 1.0.0",
+      "Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Microsoft\\.nuget\\packages\\": {},
@@ -14,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\XUnit\\XUnit.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\XUnit.csproj",
       "projectName": "XUnit",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\XUnit\\XUnit.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\XUnit.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\XUnit\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
@@ -38,7 +95,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj"
+            },
+            "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj"
+            },
+            "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Services\\Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

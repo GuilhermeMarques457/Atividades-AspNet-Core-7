@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m6FHoopOlEs5EX67zSRSuVFGlama3lWSwZDOjXqy7CJSwxp4zBAI4bEaFt4DnmiwFO6Cg4WPTD2/l6WitHYreQ==",
+  "dgSpecHash": "Y5YothqS/w9FQyWxHlRnYHNiaq6C6pbShXQuZdozIXao4mcgXm952F6kQla9U5b8O/HZ+u2VeZR488W35hxL1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\StocksApp.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\StocksApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Microsoft\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Microsoft\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

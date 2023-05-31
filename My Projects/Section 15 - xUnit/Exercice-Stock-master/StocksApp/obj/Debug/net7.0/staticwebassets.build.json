@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ciV1i75v4GDdkB4bc5DrIJAyJg374wVNxet7Mbb0xLU=",
+  "Hash": "3Zk8y0B+VwMrgEjWNaTJT3x7OR6/FSLpU7iSMQZXyMQ=",
   "Source": "StocksApp",
   "BasePath": "_content/StocksApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "StocksApp\\wwwroot",
       "Source": "StocksApp",
-      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\wwwroot\\StyleSheet.css",
       "SourceId": "StocksApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

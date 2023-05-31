@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 5 - Controllers\\ControllersExamples\\ControllersExamples\\ControllersExamples.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Controllers\\ControllersExamples\\ControllersExamples\\ControllersExamples.csproj",
       "projectName": "ControllersExamples",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 5 - Controllers\\ControllersExamples\\ControllersExamples\\ControllersExamples.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Controllers\\ControllersExamples\\ControllersExamples\\ControllersExamples.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 5 - Controllers\\ControllersExamples\\ControllersExamples\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Controllers\\ControllersExamples\\ControllersExamples\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"

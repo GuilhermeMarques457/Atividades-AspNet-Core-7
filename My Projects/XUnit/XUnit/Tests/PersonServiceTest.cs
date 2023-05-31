@@ -20,8 +20,8 @@ namespace Tests
         private readonly ITestOutputHelper _testOutputHelper;
         public PersonServiceTest(ITestOutputHelper testOutputHelper)
         {
-            _peopleService = new PersonService();
-            _countriesService = new CountriesService();
+            _peopleService = new PersonService(false);
+            _countriesService = new CountriesService(false);
             _testOutputHelper = testOutputHelper;
         }
 

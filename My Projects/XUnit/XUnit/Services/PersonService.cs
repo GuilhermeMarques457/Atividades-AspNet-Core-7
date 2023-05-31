@@ -17,10 +17,34 @@ namespace Services
         private readonly List<Person> _peopleList;
         private readonly ICountriesService _countriesService;
 
-        public PersonService()
+        public PersonService(bool initialize = true)
         {
             _peopleList = new List<Person>();
             _countriesService = new CountriesService();
+
+            if (initialize)
+            {
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("8082ED0C-396D-4162-AD1D-29A13F929824"), PersonName = "Aguste", PersonEmail = "aleddy0@booking.com", DateOfBirth = DateTime.Parse("1993-01-02"), PersonGender = "Male", PersonAddress = "0858 Novick Terrace", ReceiveNewsLetters = false, CountryID = Guid.Parse("000C76EB-62E9-4465-96D1-2C41FDB64C3B") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("06D15BAD-52F4-498E-B478-ACAD847ABFAA"), PersonName = "Jasmina", PersonEmail = "jsyddie1@miibeian.gov.cn", DateOfBirth = DateTime.Parse("1991-06-24"), PersonGender = "Female", PersonAddress = "0742 Fieldstone Lane", ReceiveNewsLetters = true, CountryID = Guid.Parse("32DA506B-3EBA-48A4-BD86-5F93A2E19E3F") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("D3EA677A-0F5B-41EA-8FEF-EA2FC41900FD"), PersonName = "Kendall", PersonEmail = "khaquard2@arstechnica.com", DateOfBirth = DateTime.Parse("1993-08-13"), PersonGender = "Male", PersonAddress = "7050 Pawling Alley", ReceiveNewsLetters = false, CountryID = Guid.Parse("32DA506B-3EBA-48A4-BD86-5F93A2E19E3F") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("89452EDB-BF8C-4283-9BA4-8259FD4A7A76"), PersonName = "Kilian", PersonEmail = "kaizikowitz3@joomla.org", DateOfBirth = DateTime.Parse("1991-06-17"), PersonGender = "Male", PersonAddress = "233 Buhler Junction", ReceiveNewsLetters = true, CountryID = Guid.Parse("32DA506B-3EBA-48A4-BD86-5F93A2E19E3F") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("F5BD5979-1DC1-432C-B1F1-DB5BCCB0E56D"), PersonName = "Dulcinea", PersonEmail = "dbus4@pbs.org", DateOfBirth = DateTime.Parse("1996-09-02"), PersonGender = "Female", PersonAddress = "56 Sundown Point", ReceiveNewsLetters = false, CountryID = Guid.Parse("DF7C89CE-3341-4246-84AE-E01AB7BA476E") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("A795E22D-FAED-42F0-B134-F3B89B8683E5"), PersonName = "Corabelle", PersonEmail = "cadams5@t-online.de", DateOfBirth = DateTime.Parse("1993-10-23"), PersonGender = "Female", PersonAddress = "4489 Hazelcrest Place", ReceiveNewsLetters = false, CountryID = Guid.Parse("DF7C89CE-3341-4246-84AE-E01AB7BA476E") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("3C12D8E8-3C1C-4F57-B6A4-C8CAAC893D7A"), PersonName = "Faydra", PersonEmail = "fbischof6@boston.com", DateOfBirth = DateTime.Parse("1996-02-14"), PersonGender = "Female", PersonAddress = "2010 Farragut Pass", ReceiveNewsLetters = true, CountryID = Guid.Parse("DF7C89CE-3341-4246-84AE-E01AB7BA476E") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("7B75097B-BFF2-459F-8EA8-63742BBD7AFB"), PersonName = "Oby", PersonEmail = "oclutheram7@foxnews.com", DateOfBirth = DateTime.Parse("1992-05-31"), PersonGender = "Male", PersonAddress = "2 Fallview Plaza", ReceiveNewsLetters = false, CountryID = Guid.Parse("15889048-AF93-412C-B8F3-22103E943A6D") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("6717C42D-16EC-4F15-80D8-4C7413E250CB"), PersonName = "Seumas", PersonEmail = "ssimonitto8@biglobe.ne.jp", DateOfBirth = DateTime.Parse("1999-02-02"), PersonGender = "Male", PersonAddress = "76779 Norway Maple Crossing", ReceiveNewsLetters = false, CountryID = Guid.Parse("15889048-AF93-412C-B8F3-22103E943A6D") });
+
+                _peopleList.Add(new Person() { PersonId = Guid.Parse("6E789C86-C8A6-4F18-821C-2ABDB2E95982"), PersonName = "Freemon", PersonEmail = "faugustin9@vimeo.com", DateOfBirth = DateTime.Parse("1996-04-27"), PersonGender = "Male", PersonAddress = "8754 Becker Street", ReceiveNewsLetters = false, CountryID = Guid.Parse("000C76EB-62E9-4465-96D1-2C41FDB64C3B") });
+
+            }
         }
 
         private PersonResponse ConvertPersonToPersonResponse(Person person)
@@ -59,14 +83,14 @@ namespace Services
 
             if (person == null) return null;
 
-            return person.ToPersonResponse();
+            return ConvertPersonToPersonResponse(person);
 
 
         }
 
         public List<PersonResponse> GetPersonList()
         {
-            return _peopleList.Select(p => p.ToPersonResponse()).ToList();
+            return _peopleList.Select(p => ConvertPersonToPersonResponse(p)).ToList();
         }
 
        
@@ -81,28 +105,28 @@ namespace Services
             
             switch (searchBy)
             {
-                case nameof(Person.PersonName):
+                case nameof(PersonResponse.PersonName):
                     matchingPeople = personList.Where
                         (p => !string.IsNullOrEmpty(p.PersonName)
                             ? p.PersonName.Contains(searchString, StringComparison.OrdinalIgnoreCase)
                             : true).ToList();
                     break;
 
-                case nameof(Person.PersonEmail):
+                case nameof(PersonResponse.PersonEmail):
                     matchingPeople = personList.Where
                         (p => !string.IsNullOrEmpty(p.PersonEmail)
                             ? p.PersonEmail.Contains(searchString, StringComparison.OrdinalIgnoreCase)
                             : true).ToList();
                     break;
 
-                case nameof(Person.PersonAddress):
+                case nameof(PersonResponse.PersonAddress):
                     matchingPeople = personList.Where
                         (p => !string.IsNullOrEmpty(p.PersonAddress)
                             ? p.PersonAddress.Contains(searchString, StringComparison.OrdinalIgnoreCase)
                             : true).ToList();
                     break;
 
-                case nameof(Person.DateOfBirth):
+                case nameof(PersonResponse.DateOfBirth):
                     matchingPeople = personList.Where
                         (p => p.DateOfBirth != null
                             ? p.DateOfBirth.Value.ToString("dd MMMM yyyy")
@@ -110,14 +134,14 @@ namespace Services
                             : true).ToList();
                     break;
 
-                case nameof(Person.PersonGender):
+                case nameof(PersonResponse.PersonGender):
                     matchingPeople = personList.Where
                         (p => !string.IsNullOrEmpty(p.PersonGender)
-                            ? p.PersonGender.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                            ? p.PersonGender.Equals(searchString, StringComparison.OrdinalIgnoreCase)
                             : true).ToList();
                     break;
 
-                case nameof(Person.CountryID):
+                case nameof(PersonResponse.CountryID):
                     matchingPeople = personList.Where
                         (p => !string.IsNullOrEmpty(p.CountryName)
                             ? p.CountryName.Contains(searchString, StringComparison.OrdinalIgnoreCase)
@@ -212,7 +236,7 @@ namespace Services
             matchingPerson.DateOfBirth = personUpdateRequest.DateOfBirth;
             matchingPerson.ReceiveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
 
-            return matchingPerson.ToPersonResponse();
+            return ConvertPersonToPersonResponse(matchingPerson);
         }
 
         public bool DeletePerson(Guid? PersonId)

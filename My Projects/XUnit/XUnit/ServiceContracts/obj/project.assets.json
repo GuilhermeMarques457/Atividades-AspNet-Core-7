@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
       "projectName": "ServiceContracts",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\ServiceContracts.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\ServiceContracts\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\ServiceContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj"
+            "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\Entities\\Entities.csproj"
             }
           }
         }

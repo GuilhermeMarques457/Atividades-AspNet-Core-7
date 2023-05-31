@@ -10243,11 +10243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\TestStock\\TestStock.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\TestStock\\TestStock.csproj",
       "projectName": "TestStock",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\TestStock\\TestStock.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\TestStock\\TestStock.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\TestStock\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\TestStock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
@@ -10268,8 +10268,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\StocksApp.csproj": {
-              "projectPath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\StocksApp\\StocksApp.csproj"
+            "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\StocksApp.csproj": {
+              "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\StocksApp\\StocksApp.csproj"
             }
           }
         }

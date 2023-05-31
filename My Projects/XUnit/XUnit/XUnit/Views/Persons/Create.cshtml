@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "Create Person";
+}
+
+<a href="~/persons/index" class="link-hover">Back to People List</a>
+<h2>Create Person</h2>
+
+<div class="w-50">
+    <form action="~/persons/create" method="post" class="create-person-form">
+        <div class="form-field-input">
+            <label for="PersonName">Person Name</label>
+            <input type="text" id="PersonName" name="PersonName" placeholder="Type your name here" />
+        </div>
+
+        <div class="form-field-input">
+            <label for="PersonEmail">Person Email</label>
+            <input type="text" id="PersonEmail" name="PersonEmail" placeholder="Type your email here" />
+        </div>
+
+        <div class="form-field-input">
+            <label for="DateOfBirth">Date Of Birth</label>
+            <input type="date" id="DateOfBirth" name="DateOfBirth" />
+        </div>
+
+        <div class="form-field-input">
+            <label>Gender</label>
+            <div class="select-input">
+                <div>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" name="PersonGender" value="Male" />
+                </div>
+                <div>
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" name="PersonGender" value="Female" />
+                </div>
+                <div>
+                    <label for="Other">Other</label>
+                    <input type="radio" id="Other" name="PersonGender" value="Other" />
+                </div>
+            </div>
+        </div>
+        <div class="form-field-input">
+            <label for="CountryID">Country</label>
+            <select name="CountryID" id="CountryID" class="">
+                <option value="">Please Select</option>
+                @foreach (CountryResponse item in ViewBag.Countries)
+                {
+                    <option value="@item.CountryId">@item.CountryName</option>
+                }
+            </select>
+        </div>
+        <div class="form-field-input">
+            <label for="Address">Address</label>
+            <textarea type="date" id="Address" name="PersonAddress"></textarea>
+        </div>
+
+        <div class="form-field">
+            <div class="checkbox-input">
+                <label for="ReceiveNewsLetters">ReceiveNewsLetters</label>
+                <input type="checkbox" id="ReceiveNewsLetters" name="ReceiveNewsLetters" value="true"/>
+            </div>
+            
+        </div>
+
+        <div class="form-field">
+            <div class="checkbox-input">
+                <button class="button button-blue-back">Submit</button>
+            </div>
+
+        </div>
+        @if (ViewBag.Errors != null)
+        {
+            <div class="text-red">
+                <ul>
+                    @foreach (string error in ViewBag.Errors)
+                    {
+                        <li>@error</li>
+                    }
+                </ul>
+            </div>
+        }
+        
+    </form>
+</div>

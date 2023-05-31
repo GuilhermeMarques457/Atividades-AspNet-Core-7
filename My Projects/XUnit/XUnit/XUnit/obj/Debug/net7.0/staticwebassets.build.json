@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b3pp1FxXy6+SFn1RzNIkMWKZxI9Qs47IZzUlfYeMjHg=",
+  "Hash": "KR7lMoHlR26vRRLRlrlPSGWFGt94bnkEK6cHUm6Kzuk=",
   "Source": "XUnit",
   "BasePath": "_content/XUnit",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "XUnit\\wwwroot",
       "Source": "XUnit",
-      "ContentRoot": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\",
       "BasePath": "_content/XUnit",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\StyleSheet.css",
       "SourceId": "XUnit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Microsoft\\Downloads\\XUnit\\XUnit\\XUnit\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\",
       "BasePath": "_content/XUnit",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ujDHJWZeaI1Gyk9wwIiaNC9sVKR1Rgld2GFIM0tEZC1iAHM2B089xcEtDQKflmHQSuukTeRUYVSbmo8yj0+amg==",
+  "dgSpecHash": "wiBzU+FzUkFOpYzuv7HfB313Ua9Ii9BHeLXl6Rub5hWBHdjIJPDpZlrDTOE6o1FXJreAdjpSHAJwqIQczoehqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\Arquivos Programação\\Udemy AspNet.Core 6\\My Projects\\Section 15 - xUnit\\Section 15 exercice\\TestStock\\TestStock.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 15 - xUnit\\Exercice-Stock-master\\TestStock\\TestStock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Microsoft\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Microsoft\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
