@@ -17,11 +17,13 @@
     min-width: 500px;
 }
 
-.navbar
-{
-    background-color: #cacaca;
-    padding: 10px;
-    box-shadow: 0px 1px 2px 2px #cacaca;
+.navbar {
+    background-color: #eee;
+    padding: 10px 150px;
+    box-shadow: 0px 1px 12px 1px #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-brand
@@ -484,11 +486,23 @@ a.link-hover:hover
     display: flex;
 }
 
+.validate-box{
+    display: block;
+}
+
 .checkbox-input {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+.validate-message{
+    font-size: 13px;
+    color: #ee1111;
+}
 
+.center-box{
+    width: 80%;
+    margin: 0 auto;
+}
 

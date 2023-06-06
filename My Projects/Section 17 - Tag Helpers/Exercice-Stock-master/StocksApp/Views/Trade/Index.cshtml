@@ -1,0 +1,31 @@
+﻿@model StocksApp.Models.BuyOrder
+
+@{
+    ViewBag.Title = "StockTradesInformation";
+}
+
+<div class="box-trade">
+    <div>
+        <p>@ViewBag.StockTrade.StockName (@ViewBag.StockTrade.StockSymbol)</p>
+        <h2><small>$</small>@ViewBag.StockTrade.Price</h2>
+    </div>
+    <div class="action-box">
+        <h3 class="new-order-text mg">New Order</h3>
+
+        <form method="post">
+            <label asp-for="Quantity">Quantity:</label>
+            <input class="input-quantity" asp-for="Quantity"/>
+            <span class="text-red" asp-validation-for="Quantity"></span>
+
+            <div class="buttons-box">
+                <button type="submit" class="button button-red-back" asp-controller="Trade" asp-action="SellOrder">Sell</button>
+                <button type="submit" class="button button-green-back" asp-controller="Trade" asp-action="BuyOrder">Buy</button>
+            </div>
+            
+            <input type="hidden" name="Price" value="@ViewBag.StockTrade.Price" />
+            <input type="hidden" name="StockName" value="@ViewBag.StockTrade.StockName" />
+            <input type="hidden" name="StockSymbol" value="@ViewBag.StockTrade.StockSymbol" />
+
+        </form>
+    </div>
+</div>

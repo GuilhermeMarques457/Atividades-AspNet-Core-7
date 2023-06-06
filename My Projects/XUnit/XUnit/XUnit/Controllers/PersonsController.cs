@@ -1,5 +1,6 @@
 ﻿using Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
@@ -68,8 +69,14 @@ namespace XUnit.Controllers
         public IActionResult Create()
         {
             List<CountryResponse> countries = _countriesService.GetAllCountries();
-            ViewBag.Countries = countries;
-            return View();
+            ViewBag.Countries = countries.Select(
+                temp => new SelectListItem() 
+                { 
+                    Text = temp.CountryName, Value = temp.CountryId.ToString() 
+                });
+
+
+            return View(new PersonAddRequest());
         }
 
         [Route("[action]")]
@@ -88,6 +95,97 @@ namespace XUnit.Controllers
             PersonResponse personRespose = _personService.AddPerson(person);
 
             return RedirectToAction("index", "persons");
+        }
+
+        [Route("[action]/{id:guid}")]
+        [HttpGet]
+        public IActionResult Edit(Guid? id)
+        {
+            
+            PersonUpdateRequest? personUpdateRequest = _personService.GetPersonById(id)!.ToPersonUpdateRequest();
+
+            List<CountryResponse> countries = _countriesService.GetAllCountries();
+            ViewBag.Countries = countries.Select(
+                temp => new SelectListItem()
+                {
+                    Text = temp.CountryName,
+                    Value = temp.CountryId.ToString()
+                });
+
+
+            if (personUpdateRequest == null) 
+            {
+                return RedirectToAction("index");
+            }
+
+            return View(personUpdateRequest);
+        }
+
+        [Route("[action]/{id:guid}")]
+        [HttpPost]
+        public IActionResult Edit(PersonUpdateRequest person)
+        {
+            PersonResponse? matchingPerson = _personService.GetPersonById(person.PersonId);
+
+            if(matchingPerson == null )
+            {
+                return RedirectToAction("index");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                List<CountryResponse> countries = _countriesService.GetAllCountries();
+                ViewBag.Countries = countries.Select(
+                    temp => new SelectListItem()
+                    {
+                        Text = temp.CountryName,
+                        Value = temp.CountryId.ToString()
+                    });
+
+                ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                return View(person);
+
+            }
+
+            PersonResponse personRespose = _personService.UpdatePerson(person);
+
+            return RedirectToAction("index", "persons");
+        }
+
+        [Route("[action]/{id:guid}")]
+        [HttpGet]
+        public IActionResult Delete(Guid? id)
+        {
+            PersonResponse? personResponse = _personService.GetPersonById(id);
+
+            if (personResponse == null)
+            {
+                return RedirectToAction("index");
+            }
+
+            return View(personResponse);
+        }
+
+        [Route("[action]/{id:guid}")]
+        [HttpPost]
+        public IActionResult Delete(PersonUpdateRequest? person)
+        {
+            PersonResponse? matchingPerson = _personService.GetPersonById(person.PersonId);
+
+            if (matchingPerson == null)
+            {
+                return RedirectToAction("index");
+            }
+
+            bool deleted = _personService.DeletePerson(person.PersonId);
+
+            if(deleted) 
+            {
+                return RedirectToAction("index", "persons");
+            }
+
+            return View();
+
         }
     }
 }

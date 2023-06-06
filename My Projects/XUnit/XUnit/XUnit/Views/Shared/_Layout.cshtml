@@ -10,7 +10,10 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <div class="navbar-brand">CRUD Demo</div>
+            <div class="navbar-brand">
+                @*It's used to change the cached images, very good xD*@
+                <img src="~/Images/Logo.png" asp-append-version="true" width="140px"/>
+            </div>
             <ul>
                 <li>
                     <a href="~/persons/index">Persons</a>
@@ -22,5 +25,8 @@
             @RenderBody()
         </div>
     </div>
+
+    @*If the view doesn't supply this section it will be ignored*@
+    @RenderSection("scripts", required: false)
 </body>
 </html>

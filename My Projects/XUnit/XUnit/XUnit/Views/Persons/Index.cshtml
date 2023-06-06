@@ -3,9 +3,10 @@
 @{
     ViewBag.Title = "People List";
 }
-<a href="~/persons/create">Create Person</a>
 
-<form action="~/persons/index" method="get">
+
+<form asp-action="index" asp-controller="persons" method="get">
+    <a asp-action="Create" asp-controller="persons">Create Person</a>
     <div class="box flex">
         <div class="flex-1">
             <select class="form-input" name="searchBy">
@@ -32,7 +33,7 @@
 
         <div class="flex-1">
             <button class="button button-blue-back">Search</button>
-            <a href="~/persons/index">Clear all</a>
+            <a asp-action="index" asp-controller="persons">Clear all</a>
         </div>
     </div>
 
@@ -78,22 +79,29 @@
                     {"ColumnName", nameof(PersonResponse.ReceiveNewsLetters)},
                     {"DisplayName", "Receive News Letters"},
                 })
-
+                <th>
+                    Options
+                </th>
             </tr>
         </thead>
         <tbody>
 
             @foreach (var item in Model)
             {
+
                 <tr>
-                    <td style="width: 15%">@item.PersonName</td>
-                    <td style="width: 15%">@item.PersonEmail</td>
-                    <td style="width: 12%">@item.DateOfBirth?.ToString("dd MMM yyyy")</td>
+                    <td style="width: 12%">@item.PersonName</td>
+                    <td style="width: 14%">@item.PersonEmail</td>
+                    <td style="width: 11%">@item.DateOfBirth?.ToString("dd MMM yyyy")</td>
                     <td style="width: 8%">@item.PersonAge</td>
-                    <td style="width: 10%">@item.PersonGender</td>
-                    <td style="width: 12%">@item.CountryName</td>
-                    <td style="width: 15%">@item.PersonAddress</td>
-                    <td style="width: 15%">@item.ReceiveNewsLetters</td>
+                    <td style="width: 9%">@item.PersonGender</td>
+                    <td style="width: 11%">@item.CountryName</td>
+                    <td style="width: 14%">@item.PersonAddress</td>
+                    <td style="width: 14%">@item.ReceiveNewsLetters</td>
+                    <td style="width: 10%">
+                        <a asp-controller="persons" asp-action="edit" asp-route-id="@item.PersonId">Edit</a>
+                        <a asp-controller="persons" asp-action="delete" asp-route-id="@item.PersonId">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>

@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
       "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\XUnit\\XUnit\\XUnit\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\jquery.validate.unobtrusive.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.XUnit.Microsoft.AspNetCore.StaticWebAssets.props",
