@@ -1,0 +1,128 @@
+﻿/* Layout */
+
+.header-container{
+    padding: 3.2rem 0;
+}
+
+.logo-box{
+    font-size: 2.5rem;
+}
+
+.logo-text{
+    color: var(--white-color);
+    text-decoration:none;
+}
+
+.nav-list {
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+.stock-name{
+    font-size: 2rem;
+}
+
+.stock-price{
+    font-size: 2.2rem
+}
+
+.new-order-text{
+    font-size: 2.8rem;
+}
+
+.input-quantity {
+    width: 15rem !important;
+    border-radius: 20px;
+}
+
+.btn{
+    border: 0px solid black;
+    padding: 0.8rem 1.4rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    color: var(--white-color);
+    cursor: pointer
+}
+
+.btn-buy{
+    background-color: green;
+}
+
+.btn-sell {
+    background-color: red;
+}
+/* end */
+
+/* Home Page */
+.stock-price-panel{
+    border: 1px solid var(--white-color);
+    padding: 3rem 2rem;
+}
+
+.stock-title{
+    font-size: 4.2rem;
+}
+
+.info-stock-box{
+    padding: 1rem 0;
+}
+
+.stock-info-text{
+    font-size: 1.8rem
+}
+
+.btn-order-anchor{
+    width: 50%;
+}
+
+
+/* end */
+
+
+/* SeeOrders Page */
+
+.pdf-generator-box {
+    display: flex;
+    justify-content: end;
+}
+
+.pdf-generator {
+    color: var(--dark-color);
+    font-size: 1.8rem;
+    background-color: var(--secondary-color);
+    padding: 0.8rem 1.2rem;
+    text-decoration:none;
+    border-radius: 5px;
+    transition: 0.4s all
+}
+
+.pdf-generator:hover{
+    background-color: var(--tertiary-color);
+}
+
+.orders-box {
+    padding: 1rem;
+}
+
+.order-item{
+    padding: 1rem;
+    border: 1px solid;
+}
+
+.order-item p{
+    font-size: 1.6rem
+}
+
+.info span{
+    font-size: 1.8rem;
+}
+
+.date-time-trade{
+    font-size: 1.4rem !important;
+}

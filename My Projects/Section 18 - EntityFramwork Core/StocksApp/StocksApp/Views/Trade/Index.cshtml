@@ -1,0 +1,38 @@
+﻿@model OrderRequest
+
+@{
+    ViewBag.Title = "StockTradesInformation";
+}
+<link href="@("http://" + Context.Request.Host.ToString() + "/general.css")" rel="stylesheet" />
+<link href="@("http://" + Context.Request.Host.ToString() + "/style.css")" rel="stylesheet" />
+
+<section class="trade-section grid grid--2--cols">
+    <div>
+        <p class="stock-name mg-bt-md">@ViewBag.StockTrade.StockName (@ViewBag.StockTrade.StockSymbol)</p>
+        <h2 class="stock-price"><small>$</small>@ViewBag.StockTrade.Price</h2>
+    </div>
+    <div class="action-box">
+        <h3 class="new-order-text mg-bt-md">New Order</h3>
+
+        <form method="post">
+            <div class="input-box">
+                <div class="flex ">
+                    <label asp-for="Quantity">Quantity:</label>
+                    <input class="input-quantity" asp-for="Quantity" />
+                </div>
+                <span asp-validation-for="Quantity"></span>
+            </div>
+           
+
+            <div class="mg-tp-md">
+                <button type="submit" class="btn btn-sell mg-rg-md" asp-controller="Trade" asp-action="SellOrder">Sell</button>
+                <button type="submit" class="btn btn-buy " asp-controller="Trade" asp-action="BuyOrder">Buy</button>
+            </div>
+
+            <input type="hidden" name="Price" value="@ViewBag.StockTrade.Price" />
+            <input type="hidden" name="StockName" value="@ViewBag.StockTrade.StockName" />
+            <input type="hidden" name="StockSymbol" value="@ViewBag.StockTrade.StockSymbol" />
+
+        </form>
+    </div>
+</section>

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "MAo6aDiQvPQf1q8gM4N264+iDPNNDPaT5/dYCu26pIY=",
+  "Source": "StocksApp",
+  "BasePath": "_content/StocksApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StocksApp\\wwwroot",
+      "Source": "StocksApp",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\general.css",
+      "SourceId": "StocksApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "RelativePath": "general.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\general.css"
+    },
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "StocksApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "RelativePath": "Rotativa/wkhtmltopdf.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Identity": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\style.css",
+      "SourceId": "StocksApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 18 - EntityFramwork Core\\StocksApp\\StocksApp\\wwwroot\\",
+      "BasePath": "_content/StocksApp",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
