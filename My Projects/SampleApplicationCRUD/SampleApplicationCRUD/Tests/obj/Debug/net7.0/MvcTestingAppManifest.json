@@ -1,0 +1,8 @@
+{
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\Entities",
+  "Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\Repository",
+  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\RepositoryContracts",
+  "SampleApplicationCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\SampleApplicationCRUD",
+  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\ServiceContracts",
+  "Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\SampleApplicationCRUD\\SampleApplicationCRUD\\Services"
+}

@@ -66,3 +66,5 @@ C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleAppl
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Services\obj\Debug\net7.0\refint\Services.dll
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Services\obj\Debug\net7.0\Services.pdb
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Services\obj\Debug\net7.0\ref\Services.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Services\bin\Debug\net7.0\RepositoryContracts.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\Services\bin\Debug\net7.0\RepositoryContracts.pdb

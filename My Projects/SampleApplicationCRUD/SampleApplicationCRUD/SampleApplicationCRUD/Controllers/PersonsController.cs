@@ -16,11 +16,13 @@ namespace XUnit.Controllers
 
         private readonly IPersonService _personService;
         private readonly ICountriesService _countriesService;
+        private readonly ILogger<PersonsController> _logger;
 
-        public PersonsController(IPersonService personService, ICountriesService countriesService)
+        public PersonsController(IPersonService personService, ICountriesService countriesService, ILogger<PersonsController> logger)
         {
             _personService = personService;
             _countriesService = countriesService;
+            _logger = logger;   
         }
 
         //localhost:8080/index
@@ -38,6 +40,9 @@ namespace XUnit.Controllers
             SortOrderOptions sortOrder = SortOrderOptions.ASC
         )
         {
+            _logger.LogInformation("Index ation of personsControler reached");
+            _logger.LogDebug("searchBy: " + searchBy + ", searchString: " + searchString + ", sortOrder: " + sortOrder + ", sortyBy: " + sortBy);
+
             ViewBag.SearchFields = new Dictionary<string, string>
             {
                 { nameof(PersonResponse.PersonName), "Person Name" },
@@ -92,12 +97,12 @@ namespace XUnit.Controllers
                 ViewBag.Countries = countries;
                 ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList(); 
 
-                return View();
+                return View(person);
             }
 
             PersonResponse personRespose = await _personService.AddPerson(person);
 
-            return RedirectToAction("index", "persons");
+            return RedirectToAction("Index", "Persons");
         }
 
         [Route("[action]/{id:guid}")]

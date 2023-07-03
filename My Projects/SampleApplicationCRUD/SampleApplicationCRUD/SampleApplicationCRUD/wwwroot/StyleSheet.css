@@ -17,13 +17,11 @@
     min-width: 500px;
 }
 
-.navbar {
-    background-color: #eee;
-    padding: 10px 150px;
-    box-shadow: 0px 1px 12px 1px #eee;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar
+{
+    background-color: #cacaca;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 2px #cacaca;
 }
 
 .navbar-brand
@@ -305,7 +303,7 @@
 
 .flex > div
 {
-    padding: 15px;
+    padding: 4px !important;
 }
 
 .flex-1
@@ -357,13 +355,11 @@ a.link-hover:hover
 
 .button
 {
-    transition: 0.3s all;
-    padding: 8px 20px;
+    padding: 8px 12px;
     border: 2px solid #cacaca;
-    border-radius: 5px;
+    border-radius: 8px;
     outline: 3px solid #ffffff;
     font-size: 101%;
-    cursor: pointer
 }
 
 .button-blue-back
@@ -425,7 +421,29 @@ a.link-hover:hover
     display: inline-block;
 }
 
+.center-box
+{
+    margin: auto;
+    width: 90%;
+}
 
+.form-field > div:first-child
+{
+    flex: 1;
+    width: auto;
+}
+
+.form-field > div:nth-child(2)
+{
+    flex: 1;
+    width: auto;
+}
+
+.form-field
+{
+    flex-direction: column;
+    margin-bottom: 6px;
+}
 
 
 @media screen and (min-width: 1000px)
@@ -447,62 +465,30 @@ a.link-hover:hover
         display: inline-block;
         width: auto;
     }
-}
 
-.create-person-form {
-    padding: 20px 20px;
-}
+    .center-box
+    {
+        width: 70%;
+        margin: auto;
+    }
 
-.form-field {
-    padding: 10px 0px;
-}
+    .form-field>div
+    {
+        padding: 15px !important;
+    }
 
-.form-field-input {
-    padding: 10px 0px;
-}
+    .form-field>div:first-child
+    {
+        flex: 1 !important;
+    }
 
-.form-field-input input, .form-field-input select, .form-field-input textarea{
-    width: 70%;
-    border: 1px solid #aaa !important;
-    padding: 10px 20px;
-    display: block;
-    border-radius: 8px;
-    transition: box-shadow 0.2s;
-    margin-top: 5px;
-}
+    .form-field > div:nth-child(2)
+    {
+        flex: 3 !important;
+    }
 
-.form-field label {
-    font-size: 18px;
+    .form-field
+    {
+        flex-direction: row;
+    }
 }
-
-.select-input {
-    margin-top: 10px;
-    display: flex;
-    gap: 40px;
-}
-
-.select-input div{
-    gap: 10px;
-    display: flex;
-}
-
-.validate-box{
-    display: block;
-}
-
-.checkbox-input {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.validate-message{
-    font-size: 13px;
-    color: #ee1111;
-}
-
-.center-box{
-    width: 80%;
-    margin: 0 auto;
-}
-
