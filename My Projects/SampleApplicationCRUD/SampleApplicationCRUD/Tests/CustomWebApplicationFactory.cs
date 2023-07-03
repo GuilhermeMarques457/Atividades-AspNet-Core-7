@@ -16,7 +16,7 @@ namespace Tests
     //Accessing the program class from the main application
     //To do so we had to:
     //1. Add a partial class in the bottom of the program file
-    //2. Add a statement that allow the tests to get the program in the project file (click right buttom in the project)
+    //2. Add a statement that allows the tests to get the program in the project file (click right buttom in the project)
     //3. Install the package "Microsoft.AspNetCore.Mvc.Testing"
 
 

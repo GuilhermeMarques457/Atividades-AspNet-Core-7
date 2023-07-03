@@ -104,3 +104,4 @@ C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleAppl
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\bin\Debug\net7.0\Serilog.Sinks.MSSqlServer.dll
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD\bin\Debug\net7.0\SerilogTimings.dll

@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using ServiceContracts.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Entities;
+using Microsoft.Extensions.Logging;
+using Services;
 
 namespace Tests
 {
@@ -23,11 +25,12 @@ namespace Tests
         private readonly Mock<IPersonService> _personsServiceMock;
         private readonly Mock<ICountriesService> _countriesServiceMock;
         private readonly Fixture _fixture;
+        private readonly Mock<ILogger<PersonsController>> _loggerMock;
 
         public PersonsControllerTest()
         {
             _fixture = new Fixture();
-
+            _loggerMock = new Mock<ILogger<PersonsController>>();
             _countriesServiceMock = new Mock<ICountriesService>();
             _personsServiceMock = new Mock<IPersonService>();
 
@@ -44,7 +47,7 @@ namespace Tests
             List<PersonResponse> personResponsesList =
                 _fixture.Create<List<PersonResponse>>();
 
-            PersonsController peopleController = new PersonsController(_personsService, _countriesService);
+            PersonsController peopleController = new PersonsController(_personsService, _countriesService, _loggerMock.Object);
 
             //Mocking the usings methods in the action
             _personsServiceMock.Setup(temp => temp.GetFilterdPeople(It.IsAny<string>(), It.IsAny<string>()))
@@ -92,7 +95,7 @@ namespace Tests
             List<CountryResponse> countries =
                 _fixture.Create<List<CountryResponse>>();
 
-            PersonsController peopleController = new PersonsController(_personsService, _countriesService);
+            PersonsController peopleController = new PersonsController(_personsService, _countriesService, _loggerMock.Object);
 
             _countriesServiceMock.Setup(temp => temp.GetAllCountries())
                 .ReturnsAsync(countries);            
@@ -126,7 +129,7 @@ namespace Tests
             PersonResponse personResponseExpected =
                 _fixture.Create<PersonResponse>();
 
-            PersonsController peopleController = new PersonsController(_personsService, _countriesService);
+            PersonsController peopleController = new PersonsController(_personsService, _countriesService, _loggerMock.Object);
 
             _personsServiceMock.Setup(temp => temp.AddPerson(It.IsAny<PersonAddRequest>()))
                 .ReturnsAsync(personResponseExpected);
@@ -164,7 +167,7 @@ namespace Tests
             List <CountryResponse> countries =
                 _fixture.Create<List<CountryResponse>>();
 
-            PersonsController peopleController = new PersonsController(_personsService, _countriesService);
+            PersonsController peopleController = new PersonsController(_personsService, _countriesService, _loggerMock.Object);
 
             _countriesServiceMock.Setup(temp => temp.GetAllCountries())
                 .ReturnsAsync(countries);

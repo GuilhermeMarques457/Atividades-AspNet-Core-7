@@ -1,0 +1,127 @@
+2023-07-03 18:33:59.690 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-03 18:33:59.861 -03:00 [INF] Now listening on: http://localhost:5159
+2023-07-03 18:33:59.864 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-03 18:33:59.865 -03:00 [INF] Hosting environment: Development
+2023-07-03 18:33:59.865 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD
+2023-07-03 18:34:03.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-03 18:34:03.118 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-03 18:34:03.183 -03:00 [INF] Executing endpoint 'XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-03 18:34:03.254 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller XUnit.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-03 18:34:03.439 -03:00 [INF] Index ation of personsControler reached
+2023-07-03 18:34:03.481 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-03 18:34:03.983 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-03 18:34:04.270 -03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-03 18:34:04.357 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-03 18:34:04.371 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-03 18:34:04.626 -03:00 [INF] Executed ViewResult - view Index executed in 257.6891ms.
+2023-07-03 18:34:04.630 -03:00 [INF] Executed action XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD) in 1373.4782ms
+2023-07-03 18:34:04.631 -03:00 [INF] Executed endpoint 'XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-03 18:34:04.632 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 03 Jul 2023 21:34:03 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-07-03 18:34:04.635 -03:00 [INF] HTTP GET / responded 200 in 1521.5213 ms
+2023-07-03 18:34:04.689 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 18:34:04.689 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-03 18:34:04.694 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 3.5515ms
+2023-07-03 18:34:04.697 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 1619.8901ms
+2023-07-03 18:34:04.802 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.1421ms
+2023-07-03 18:34:04.840 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-03 18:34:04.842 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-03 18:34:04.848 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-03 18:34:04.848 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 6.7916 ms
+2023-07-03 18:34:04.850 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 10.5267ms
+2023-07-03 18:34:30.659 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Index?searchBy=PersonName&searchString=gu - -
+2023-07-03 18:34:30.662 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-03 18:34:30.664 -03:00 [INF] Executing endpoint 'XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-03 18:34:30.668 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller XUnit.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-03 18:34:30.676 -03:00 [INF] Index ation of personsControler reached
+2023-07-03 18:34:30.677 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-03 18:34:30.678 -03:00 [INF] GetFilteredPeople of the respository
+2023-07-03 18:34:30.687 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-03 18:34:30.735 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__searchString_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+WHERE (@__searchString_0 LIKE N'') OR (CHARINDEX(@__searchString_0, [p].[PersonName]) > 0)
+2023-07-03 18:34:30.739 -03:00 [INF] Time for Filtered People from DB completed in 61.0 ms
+2023-07-03 18:34:30.743 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-03 18:34:30.744 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-03 18:34:30.756 -03:00 [INF] Executed ViewResult - view Index executed in 12.0578ms.
+2023-07-03 18:34:30.757 -03:00 [INF] Executed action XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD) in 85.8821ms
+2023-07-03 18:34:30.757 -03:00 [INF] Executed endpoint 'XUnit.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-03 18:34:30.758 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 03 Jul 2023 21:34:30 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+2023-07-03 18:34:30.759 -03:00 [INF] HTTP GET /Persons/Index responded 200 in 96.8035 ms
+2023-07-03 18:34:30.762 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Index?searchBy=PersonName&searchString=gu - - - 200 - text/html;+charset=utf-8 102.9638ms
+2023-07-03 18:34:30.767 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-03 18:34:30.767 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-03 18:34:30.773 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 5.6701ms
+2023-07-03 18:34:30.789 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.3481ms

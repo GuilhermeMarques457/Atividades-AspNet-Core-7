@@ -55,11 +55,6 @@ if (builder.Environment.IsDevelopment())
 //Enable httplog on our application
 app.UseHttpLogging();
 
-//app.Logger.LogDebug("Debug-message");
-//app.Logger.LogInformation("Information-message");
-//app.Logger.LogWarning("Warning-message");
-//app.Logger.LogError("Error-message");
-//app.Logger.LogCritical("Critical-message");
 
 if(builder.Environment.IsEnvironment("Test") == false)
 {

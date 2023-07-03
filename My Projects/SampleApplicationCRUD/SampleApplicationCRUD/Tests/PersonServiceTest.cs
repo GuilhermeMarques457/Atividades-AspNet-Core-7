@@ -19,6 +19,9 @@ using RepositoryContracts;
 using Moq;
 using FluentAssertions.Execution;
 using System.Linq.Expressions;
+using Serilog.Extensions.Hosting;
+using Serilog;
+using Microsoft.Extensions.Logging;
 
 namespace Tests
 {
@@ -44,6 +47,8 @@ namespace Tests
             _peopleRepositoryMock = new Mock<IPeopleRepository>();
             //We're getting the repository implementation from the mock object
             _peopleRepository = _peopleRepositoryMock.Object;
+            var diagnosticContextMock = new Mock<IDiagnosticContext>();
+            var loggerMock = new Mock<ILogger<PersonService>>();
 
 
             //Mocking the dbContext is no longer required
@@ -56,7 +61,7 @@ namespace Tests
             //dbContextMock.CreateDbSetMock(temp => temp.Countries, countriesInitialData);
             //dbContextMock.CreateDbSetMock(temp => temp.Persons, peopleInitialData);
 
-            _peopleService = new PersonService(_peopleRepository);
+            _peopleService = new PersonService(_peopleRepository, loggerMock.Object, diagnosticContextMock.Object);
 
             
         }

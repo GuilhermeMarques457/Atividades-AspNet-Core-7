@@ -18,6 +18,7 @@ using OfficeOpenXml;
 using RepositoryContracts;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using SerilogTimings;
 
 namespace Services
 {
@@ -100,34 +101,37 @@ namespace Services
             }
             else
             {
-                people = searchBy switch
+                using (Operation.Time("Time for Filtered People from DB"))
                 {
-                    nameof(PersonResponse.PersonName) =>
-                        await _peopleRepository.GetFilterdPeople(temp =>
-                            temp.PersonName!.Contains(searchString)),
-
-                    nameof(PersonResponse.PersonEmail) =>
-                        await _peopleRepository.GetFilterdPeople(temp =>
-                            temp.PersonEmail!.Contains(searchString)),
-
-                    nameof(PersonResponse.DateOfBirth) =>
+                    people = searchBy switch
+                    {
+                        nameof(PersonResponse.PersonName) =>
                             await _peopleRepository.GetFilterdPeople(temp =>
-                                temp.DateOfBirth!.Value.ToString("dd MMMM yyyy").Contains(searchString)),
+                                temp.PersonName!.Contains(searchString)),
 
-                    nameof(PersonResponse.PersonGender) =>
-                        await _peopleRepository.GetFilterdPeople(temp =>
-                            temp.PersonGender!.Contains(searchString)),
-
-                    nameof(PersonResponse.CountryID) =>
+                        nameof(PersonResponse.PersonEmail) =>
                             await _peopleRepository.GetFilterdPeople(temp =>
-                                temp.Country!.CountryName!.Contains(searchString)),
+                                temp.PersonEmail!.Contains(searchString)),
 
-                    nameof(PersonResponse.PersonAddress) =>
+                        nameof(PersonResponse.DateOfBirth) =>
+                                await _peopleRepository.GetFilterdPeople(temp =>
+                                    temp.DateOfBirth!.Value.ToString("dd MMMM yyyy").Contains(searchString)),
+
+                        nameof(PersonResponse.PersonGender) =>
                             await _peopleRepository.GetFilterdPeople(temp =>
-                                temp.PersonAddress!.Contains(searchString)),
+                                temp.PersonGender!.Contains(searchString)),
 
-                    _ => await _peopleRepository.GetPersonList()
-                };
+                        nameof(PersonResponse.CountryID) =>
+                                await _peopleRepository.GetFilterdPeople(temp =>
+                                    temp.Country!.CountryName!.Contains(searchString)),
+
+                        nameof(PersonResponse.PersonAddress) =>
+                                await _peopleRepository.GetFilterdPeople(temp =>
+                                    temp.PersonAddress!.Contains(searchString)),
+
+                        _ => await _peopleRepository.GetPersonList()
+                    };
+                }
             }
 
             _diagnosticContext.Set("People", people);
