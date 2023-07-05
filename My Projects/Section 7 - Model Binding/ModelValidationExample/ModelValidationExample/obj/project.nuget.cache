@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I7UTN1rnYnaKb4nm0CTzMJf3ja1Nx8pt2ipePayNjDkxf/13NfyhbnquqaslnemdrJhs0WA9IwN/VkcSnbpUVA==",
+  "dgSpecHash": "152s1lJtjbQ/BkrjGDvAzWU5HcDqKDCHPK4pcCxj+GVgqIRlpG18yob+mX9PDD4lvdlZzykficZETLKudiFr5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
+  "projectFilePath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 7 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

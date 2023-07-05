@@ -7,6 +7,7 @@ using ServiceContracts.DTO;
 using ServiceContracts.Enums;
 using Rotativa.AspNetCore.Options;
 using System.IO;
+using SampleApplicationCRUD.Filters.ActionFilters;
 
 namespace XUnit.Controllers
 {
@@ -33,6 +34,9 @@ namespace XUnit.Controllers
         //persons/index
         [Route("[action]")]
         [Route("/")]
+        [TypeFilter(typeof(PersonsIndexActionFilter))]
+        [TypeFilter(typeof(ResponseHeaderActionFilter)
+            , Arguments = new object[] { "X-MyCustomKeyIndex", "MyCustomValueIndex" })]
         public async Task<IActionResult> Index(
             string? searchBy,
             string? searchString,
@@ -40,38 +44,22 @@ namespace XUnit.Controllers
             SortOrderOptions sortOrder = SortOrderOptions.ASC
         )
         {
-            _logger.LogInformation("Index ation of personsControler reached");
+            _logger.LogInformation("Index action of personsControler reached");
             _logger.LogDebug("searchBy: " + searchBy + ", searchString: " + searchString + ", sortOrder: " + sortOrder + ", sortyBy: " + sortBy);
 
-            ViewBag.SearchFields = new Dictionary<string, string>
-            {
-                { nameof(PersonResponse.PersonName), "Person Name" },
-                { nameof(PersonResponse.PersonEmail), "Person Email" },
-                { nameof(PersonResponse.DateOfBirth), "Date of Birth" },
-                { nameof(PersonResponse.PersonAddress), "Person Address" },
-                { nameof(PersonResponse.PersonGender), "Person Gender" },
-                { nameof(PersonResponse.CountryID), "Country" }
-
-            };
 
             List<PersonResponse>? persons = new List<PersonResponse>();
             persons = await _personService.GetFilterdPeople(searchBy, searchString);
             
-            ViewBag.CurrentSearchBy = searchBy;
-            ViewBag.CurrentSearchString = searchString;  
-            
             //Sorting
             List<PersonResponse>? sortedPersons = _personService.GetSortedPeople(persons, sortBy, sortOrder);
-            ViewBag.CurrentSortBy = sortBy;
-            ViewBag.CurrentSortOrder = sortOrder;
 
             return View(sortedPersons);
         }
 
         //persons/create
-        //[Route("create")]
-
-        //persons/create
+        [TypeFilter(typeof(ResponseHeaderActionFilter)
+            , Arguments = new object[] { "X-MyCustomKeyCreate", "MyCustomValueCreate" })]
         [Route("[action]")]
         [HttpGet]
         public async Task<IActionResult> Create()

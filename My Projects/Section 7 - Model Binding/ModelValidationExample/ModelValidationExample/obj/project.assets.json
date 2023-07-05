@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
+      "projectUniqueName": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 7 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
       "projectName": "ModelValidationExample",
-      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
+      "projectPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 7 - Model Binding\\ModelValidationExample\\ModelValidationExample\\ModelValidationExample.csproj",
       "packagesPath": "C:\\Users\\Microsoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 6 - Model Binding\\ModelValidationExample\\ModelValidationExample\\obj\\",
+      "outputPath": "C:\\Users\\Microsoft\\Documents\\AspNet\\My Projects\\Section 7 - Model Binding\\ModelValidationExample\\ModelValidationExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Programas Programaçao\\Componentes VS 2022\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
