@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FluentAssertions;
-using XUnit.Controllers;
 using ServiceContracts.DTO;
 using System.Threading.Tasks;
 using ServiceContracts.Enums;
@@ -14,6 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Entities;
 using Microsoft.Extensions.Logging;
 using Services;
+using SampleApplicationCRUD.Controllers;
 
 namespace Tests
 {

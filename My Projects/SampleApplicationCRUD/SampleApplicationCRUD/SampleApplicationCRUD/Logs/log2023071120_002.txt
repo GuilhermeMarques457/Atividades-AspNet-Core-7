@@ -1,0 +1,542 @@
+2023-07-11 20:06:20.136 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 20:06:20.143 -03:00 [INF] Hosting environment: Development
+2023-07-11 20:06:20.144 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD
+2023-07-11 20:07:06.642 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 20:07:07.072 -03:00 [INF] Now listening on: http://localhost:5159
+2023-07-11 20:07:08.186 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:07:08.186 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:07:08.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 14.3432ms
+2023-07-11 20:07:08.248 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.9603ms
+2023-07-11 20:07:08.290 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-11 20:07:08.312 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:07:08.354 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-11 20:07:08.357 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 49.8078 ms
+2023-07-11 20:07:08.362 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 71.6581ms
+2023-07-11 20:07:09.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Create - -
+2023-07-11 20:07:09.775 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:07:09.779 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:07:09.808 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:07:09.920 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:07:09.921 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:07:10.425 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:07:10.618 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+2023-07-11 20:07:10.691 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:07:10.692 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:07:10.702 -03:00 [INF] Executing ViewResult, running view Create.
+2023-07-11 20:07:10.868 -03:00 [INF] Executed ViewResult - view Create executed in 167.7084ms.
+2023-07-11 20:07:10.871 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 1060.3032ms
+2023-07-11 20:07:10.872 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:07:10.873 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:07:10 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-Frame-Options: [Redacted]
+2023-07-11 20:07:10.874 -03:00 [INF] HTTP GET /Persons/Create responded 200 in 1099.3748 ms
+2023-07-11 20:07:10.889 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:07:10.895 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Create - - - 200 - text/html;+charset=utf-8 1159.4790ms
+2023-07-11 20:07:10.897 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:07:10.899 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.5265ms
+2023-07-11 20:07:10.901 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.3142ms
+2023-07-11 20:07:22.083 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 412
+2023-07-11 20:07:22.086 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 412
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:07:22.088 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:07:22.100 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ServiceContracts.DTO.PersonAddRequest) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:07:22.133 -03:00 [INF] OnResourceExecuting: DisableActionMethodResourceFilter.OnResourceExecutionAsync
+2023-07-11 20:07:24.280 -03:00 [INF] Skip filter by the action method: 
+2023-07-11 20:07:25.622 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 3515.9644ms
+2023-07-11 20:07:25.624 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:07:25.625 -03:00 [INF] Response:
+StatusCode: 200
+2023-07-11 20:07:25.625 -03:00 [INF] HTTP POST /Persons/Create responded 200 in 3539.4318 ms
+2023-07-11 20:07:25.628 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 412 - 200 0 - 3544.1120ms
+2023-07-11 20:08:11.384 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Create - -
+2023-07-11 20:08:11.386 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:11.389 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:11.389 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:11.392 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:11.393 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:11.402 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:08:11.406 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+2023-07-11 20:08:11.408 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:11.408 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:11.444 -03:00 [INF] Executing ViewResult, running view Create.
+2023-07-11 20:08:11.460 -03:00 [INF] Executed ViewResult - view Create executed in 51.386ms.
+2023-07-11 20:08:11.462 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 71.1884ms
+2023-07-11 20:08:11.463 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:11.464 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:08:10 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+2023-07-11 20:08:11.465 -03:00 [INF] HTTP GET /Persons/Create responded 200 in 78.9544 ms
+2023-07-11 20:08:11.475 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:11.475 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Create - - - 200 - text/html;+charset=utf-8 90.5960ms
+2023-07-11 20:08:11.475 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.6410ms
+2023-07-11 20:08:12.377 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:12.379 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.3900ms
+2023-07-11 20:08:17.379 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:08:17.381 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:17.383 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:17.387 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:17.397 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.398 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.398 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.400 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:08:17.401 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:08:17.403 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:08:17.443 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:08:17.538 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:08:17.570 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:08:17.572 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:08:17.574 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.575 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.575 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.577 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:17.581 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-11 20:08:17.634 -03:00 [INF] Executed ViewResult - view Index executed in 52.9959ms.
+2023-07-11 20:08:17.635 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:17.635 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 246.9291ms
+2023-07-11 20:08:17.636 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:17.637 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:08:17 GMT
+Server: Kestrel
+Last-Modified: 11-07-11 20:08
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:08:17.637 -03:00 [INF] HTTP GET / responded 200 in 256.3623 ms
+2023-07-11 20:08:17.641 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 261.7067ms
+2023-07-11 20:08:17.644 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:17.644 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:08:17.644 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.8288ms
+2023-07-11 20:08:17.650 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.7395ms
+2023-07-11 20:08:17.840 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:08:17.842 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:17.843 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:17.844 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:17.846 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.847 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.847 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:17.848 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:08:17.848 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:08:17.849 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:08:17.850 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:08:17.853 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:08:17.856 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:08:17.856 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:08:17.857 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.858 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.858 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:17.859 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:17.859 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-11 20:08:17.868 -03:00 [INF] Executed ViewResult - view Index executed in 8.4835ms.
+2023-07-11 20:08:17.869 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:17.870 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 24.9925ms
+2023-07-11 20:08:17.872 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:17.873 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:08:17 GMT
+Server: Kestrel
+Last-Modified: 11-07-11 20:08
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:08:17.874 -03:00 [INF] HTTP GET / responded 200 in 31.6893 ms
+2023-07-11 20:08:17.879 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 38.2267ms
+2023-07-11 20:08:17.887 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:08:17.887 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:17.889 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 1.8571ms
+2023-07-11 20:08:17.901 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.9250ms
+2023-07-11 20:08:18.016 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:08:18.017 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:18.018 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:18.019 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:18.021 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:18.021 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:18.022 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:18.023 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:08:18.023 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:08:18.024 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:08:18.025 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:08:18.027 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:08:18.030 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:08:18.030 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:08:18.031 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:18.031 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:18.032 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:18.035 -03:00 [INF] OnResultExecuting: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:18.036 -03:00 [INF] Executing ViewResult, running view Index.
+2023-07-11 20:08:18.045 -03:00 [INF] Executed ViewResult - view Index executed in 6.5886ms.
+2023-07-11 20:08:18.046 -03:00 [INF] OnResultExecuted: PersonsListResultFilter.OnResultExecutionAsync
+2023-07-11 20:08:18.047 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 26.717ms
+2023-07-11 20:08:18.050 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:08:18.051 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:08:17 GMT
+Server: Kestrel
+Last-Modified: 11-07-11 20:08
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:08:18.053 -03:00 [INF] HTTP GET / responded 200 in 35.5812 ms
+2023-07-11 20:08:18.058 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 - text/html;+charset=utf-8 42.3982ms
+2023-07-11 20:08:18.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:08:18.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:18.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.2879ms
+2023-07-11 20:08:18.092 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.8008ms
+2023-07-11 20:08:39.754 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Create - -
+2023-07-11 20:08:39.756 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:39.757 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:39.758 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:39.760 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:39.761 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:08:39.762 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:08:39.765 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+2023-07-11 20:08:39.768 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:39.769 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:08:39.769 -03:00 [INF] Executing ViewResult, running view Create.
+2023-07-11 20:08:39.774 -03:00 [INF] Executed ViewResult - view Create executed in 4.627ms.
+2023-07-11 20:08:39.777 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 17.0936ms
+2023-07-11 20:08:39.779 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:39.780 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:08:39 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+2023-07-11 20:08:39.781 -03:00 [INF] HTTP GET /Persons/Create responded 200 in 25.0478 ms
+2023-07-11 20:08:39.785 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Create - - - 200 - text/html;+charset=utf-8 30.6615ms
+2023-07-11 20:08:39.791 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:08:39.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:08:39.795 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 0.9110ms
+2023-07-11 20:08:39.801 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.7965ms
+2023-07-11 20:08:52.401 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 379
+2023-07-11 20:08:52.403 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 379
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:08:52.405 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:52.405 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ServiceContracts.DTO.PersonAddRequest) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:08:52.407 -03:00 [INF] OnResourceExecuting: DisableActionMethodResourceFilter.OnResourceExecutionAsync
+2023-07-11 20:08:54.536 -03:00 [INF] Skip filter by the action method: 
+2023-07-11 20:08:55.544 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 3136.4482ms
+2023-07-11 20:08:55.545 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:08:55.547 -03:00 [INF] Response:
+StatusCode: 200
+2023-07-11 20:08:55.548 -03:00 [INF] HTTP POST /Persons/Create responded 200 in 3145.1319 ms
+2023-07-11 20:08:55.549 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 379 - 200 0 - 3147.5828ms
+2023-07-11 20:09:53.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/Persons/Create - -
+2023-07-11 20:09:53.272 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:09:53.273 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:09:53.275 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:09:53.276 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:09:53.279 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:09:53.280 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:09:53.284 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CountryID], [c].[CountryName]
+FROM [Countries] AS [c]
+2023-07-11 20:09:53.288 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:09:53.288 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:09:53.289 -03:00 [INF] Executing ViewResult, running view Create.
+2023-07-11 20:09:53.293 -03:00 [INF] Executed ViewResult - view Create executed in 3.61ms.
+2023-07-11 20:09:53.296 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 19.3523ms
+2023-07-11 20:09:53.297 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:09:53.298 -03:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jul 2023 23:09:52 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Transfer-Encoding: chunked
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+2023-07-11 20:09:53.300 -03:00 [INF] HTTP GET /Persons/Create responded 200 in 28.4510 ms
+2023-07-11 20:09:53.306 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/Persons/Create - - - 200 - text/html;+charset=utf-8 38.7364ms
+2023-07-11 20:09:53.308 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:09:53.311 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 2.4706ms
+2023-07-11 20:09:55.077 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 379
+2023-07-11 20:09:55.079 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /Persons/Create
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 379
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:09:55.081 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:09:55.082 -03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ServiceContracts.DTO.PersonAddRequest) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:09:55.084 -03:00 [INF] OnResourceExecuting: DisableActionMethodResourceFilter.OnResourceExecutionAsync
+2023-07-11 20:09:58.413 -03:00 [INF] Skip filter by the action method: 
+2023-07-11 20:09:59.432 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD) in 4348.5061ms
+2023-07-11 20:09:59.435 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Create (SampleApplicationCRUD)'
+2023-07-11 20:09:59.440 -03:00 [INF] Response:
+StatusCode: 200
+2023-07-11 20:09:59.441 -03:00 [INF] HTTP POST /Persons/Create responded 200 in 4362.1459 ms
+2023-07-11 20:09:59.442 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5159/Persons/Create application/x-www-form-urlencoded 379 - 200 0 - 4364.6411ms

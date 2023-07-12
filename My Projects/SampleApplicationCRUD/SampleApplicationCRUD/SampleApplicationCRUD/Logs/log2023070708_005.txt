@@ -1,0 +1,33 @@
+2023-07-07 08:53:46.944 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-07 08:53:46.950 -03:00 [INF] Hosting environment: Development
+2023-07-07 08:53:46.951 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD
+2023-07-07 08:54:24.751 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-07 08:54:24.898 -03:00 [INF] Now listening on: http://localhost:5159
+2023-07-07 08:54:26.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-07 08:54:26.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-07 08:54:26.509 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 21.0110ms
+2023-07-07 08:54:26.621 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.7685ms
+2023-07-07 08:54:26.671 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-07 08:54:26.691 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-07 08:54:26.735 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-07 08:54:26.738 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 52.0288 ms
+2023-07-07 08:54:26.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 71.9581ms

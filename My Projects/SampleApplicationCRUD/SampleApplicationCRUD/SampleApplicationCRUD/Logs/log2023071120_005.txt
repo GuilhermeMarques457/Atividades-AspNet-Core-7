@@ -1,0 +1,180 @@
+2023-07-11 20:15:18.827 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-11 20:15:18.836 -03:00 [INF] Hosting environment: Development
+2023-07-11 20:15:18.838 -03:00 [INF] Content root path: C:\Users\Microsoft\Documents\AspNet\My Projects\SampleApplicationCRUD\SampleApplicationCRUD\SampleApplicationCRUD
+2023-07-11 20:24:00.512 -03:00 [INF] User profile is available. Using 'C:\Users\Microsoft\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-11 20:24:00.644 -03:00 [INF] Now listening on: http://localhost:5159
+2023-07-11 20:24:01.932 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - -
+2023-07-11 20:24:01.932 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/_vs/browserLink - -
+2023-07-11 20:24:01.943 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 11.9051ms
+2023-07-11 20:24:01.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.9201ms
+2023-07-11 20:24:02.037 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/favicon.ico - -
+2023-07-11 20:24:02.059 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:24:02.095 -03:00 [INF] Response:
+StatusCode: 404
+2023-07-11 20:24:02.098 -03:00 [INF] HTTP GET /favicon.ico responded 404 in 44.0641 ms
+2023-07-11 20:24:02.103 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/favicon.ico - - - 404 0 - 65.9205ms
+2023-07-11 20:24:05.474 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:24:05.485 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:24:05.489 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:24:05.526 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:24:05.639 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:05.640 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:05.640 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:05.642 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:24:05.644 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:24:05.647 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:24:06.120 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:24:06.355 -03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:24:06.424 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:24:06.433 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:24:06.464 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:06.465 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:06.466 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:10.061 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 4528.4751ms
+2023-07-11 20:24:10.063 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:24:10.064 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:24:10.066 -03:00 [INF] HTTP GET / responded 200 in 4580.9280 ms
+2023-07-11 20:24:10.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 0 - 4600.3992ms
+2023-07-11 20:24:15.561 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:24:15.564 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:24:15.565 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:24:15.566 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:24:15.569 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:15.569 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:15.570 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:15.571 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:24:15.571 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:24:15.572 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:24:15.579 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:24:15.584 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:24:15.587 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:24:15.587 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:24:15.588 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:15.588 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:15.589 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:24:18.053 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 2485.982ms
+2023-07-11 20:24:18.055 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:24:18.061 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:24:18.066 -03:00 [INF] HTTP GET / responded 200 in 2501.8982 ms
+2023-07-11 20:24:18.067 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 0 - 2506.0201ms
+2023-07-11 20:24:31.718 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5159/ - -
+2023-07-11 20:24:31.720 -03:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost:5159
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2023-07-11 20:24:31.722 -03:00 [INF] Executing endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:24:31.723 -03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller SampleApplicationCRUD.Controllers.PersonsController (SampleApplicationCRUD).
+2023-07-11 20:24:31.731 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:31.732 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:31.733 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method before
+2023-07-11 20:24:31.734 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuting method
+2023-07-11 20:24:33.284 -03:00 [INF] Index action of personsControler reached
+2023-07-11 20:24:36.300 -03:00 [INF] GetFilteredPeople of personService reached
+2023-07-11 20:24:38.032 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'AspNetDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.5' with options: None
+2023-07-11 20:24:38.036 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[CountryID], [p].[DateOfBirth], [p].[PersonAddress], [p].[PersonEmail], [p].[PersonGender], [p].[PersonName], [p].[ReceiveNewsLetters], [c].[CountryID], [c].[CountryName]
+FROM [People] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2023-07-11 20:24:51.678 -03:00 [INF] GetSortedPeople of personService reached
+2023-07-11 20:25:01.779 -03:00 [INF] PersonsIndexActionFilter.OnActionExecuted method
+2023-07-11 20:25:07.741 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:25:09.770 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:25:10.979 -03:00 [INF] ResponseHeaderActionFilter.OnActionExecutionAsync method after
+2023-07-11 20:25:18.123 -03:00 [INF] Executed action SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD) in 46397.9093ms
+2023-07-11 20:25:18.125 -03:00 [INF] Executed endpoint 'SampleApplicationCRUD.Controllers.PersonsController.Index (SampleApplicationCRUD)'
+2023-07-11 20:25:18.126 -03:00 [INF] Response:
+StatusCode: 200
+X-MyCustomKeyPersonController: [Redacted]
+MyGlobalKey: [Redacted]
+X-MyCustomKeyIndex: [Redacted]
+2023-07-11 20:25:18.127 -03:00 [INF] HTTP GET / responded 200 in 46407.1186 ms
+2023-07-11 20:25:18.129 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5159/ - - - 200 0 - 46410.9236ms

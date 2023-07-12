@@ -5,6 +5,8 @@ using Entities;
 using RepositoryContracts;
 using Repository;
 using Serilog;
+using CRUDExample.Filters.ActionFilters;
+using SampleApplicationCRUD.Filters.ResultFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +18,7 @@ var builder = WebApplication.CreateBuilder(args);
 //    loggingProvider.AddEventLog();
 //});
 
-//Seting Serilog up
+//Setting Serilog up
 builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services, LoggerConfiguration loggerConfiguration) =>
 {
     loggerConfiguration
@@ -25,11 +27,26 @@ builder.Host.UseSerilog((HostBuilderContext context, IServiceProvider services, 
 
 });
 
-builder.Services.AddControllersWithViews();
+
+//To add a global filter
+builder.Services.AddControllersWithViews(options =>
+{
+    //To add without parameters
+    //options.Filters.Add<ResponseHeaderActionFilter>();
+
+    //To get the ILogger Service
+    var logger = builder.Services.BuildServiceProvider().GetRequiredService<ILogger<ResponseHeaderActionFilter>>();
+
+    //To add parameters
+    options.Filters.Add(new ResponseHeaderActionFilter(logger, "MyGlobalKey", "MyGlobalValue", 2));
+});
+
+//Adding the dependency injection with inversion of control (creating a Ioc container)
 builder.Services.AddScoped<ICountriesService, CountriesService>();
 builder.Services.AddScoped<IPersonService, PersonService>();
 builder.Services.AddScoped<IPeopleRepository, PeopleRepository>();
 builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
+builder.Services.AddTransient<PersonsListResultFilter>();
 
 //By default AddDbContext is defined as a scoped service
 builder.Services.AddDbContext<AspNetDbContext>(options =>

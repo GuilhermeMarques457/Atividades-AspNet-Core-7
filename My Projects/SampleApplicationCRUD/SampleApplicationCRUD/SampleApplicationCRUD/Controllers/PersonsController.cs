@@ -7,14 +7,29 @@ using ServiceContracts.DTO;
 using ServiceContracts.Enums;
 using Rotativa.AspNetCore.Options;
 using System.IO;
+using CRUDExample.Filters.ActionFilters;
 using SampleApplicationCRUD.Filters.ActionFilters;
+using SampleApplicationCRUD.Filters.ResultFilters;
+using SampleApplicationCRUD.Filters.ResourceFilters;
+using SampleApplicationCRUD.Filters.AuthorizationFilters;
+using SampleApplicationCRUD.Filters.ExceptionFilters;
+using SampleApplicationCRUD.Filters;
 
-namespace XUnit.Controllers
+namespace SampleApplicationCRUD.Controllers
 {
+    //If I Apply this filter, it will be used for all action methods
+    [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments =
+        new object[] { 
+            "X-MyCustomKeyPersonController",
+            "MyCustomValuePersonController",
+            3 }
+        , Order = 3)]
+    // Filter to log exception
+    [TypeFilter(typeof(HandleExceptionFilter))]
+    [TypeFilter(typeof(PersonsAlwaysRunResultFilter))]
     [Route("[controller]")]
     public class PersonsController : Controller
     {
-
         private readonly IPersonService _personService;
         private readonly ICountriesService _countriesService;
         private readonly ILogger<PersonsController> _logger;
@@ -24,19 +39,20 @@ namespace XUnit.Controllers
             _personService = personService;
             _countriesService = countriesService;
             _logger = logger;   
+            
         }
-
-        //localhost:8080/index
-        //[Route("/index")]
-
-        //persons/index
-        //[Route("index")]
-        //persons/index
+        
         [Route("[action]")]
         [Route("/")]
-        [TypeFilter(typeof(PersonsIndexActionFilter))]
-        [TypeFilter(typeof(ResponseHeaderActionFilter)
-            , Arguments = new object[] { "X-MyCustomKeyIndex", "MyCustomValueIndex" })]
+        [TypeFilter(typeof(PersonsIndexActionFilter), Order = 4)]
+        [TypeFilter(typeof(ResponseHeaderActionFilter), Arguments =
+            new object[] {
+                "X-MyCustomKeyIndex",
+                "MyCustomValueIndex",
+                1 }
+            , Order = 1)]
+        [ServiceFilter(typeof(PersonsListResultFilter))]
+        //[SkipFilter]
         public async Task<IActionResult> Index(
             string? searchBy,
             string? searchString,
@@ -57,9 +73,6 @@ namespace XUnit.Controllers
             return View(sortedPersons);
         }
 
-        //persons/create
-        [TypeFilter(typeof(ResponseHeaderActionFilter)
-            , Arguments = new object[] { "X-MyCustomKeyCreate", "MyCustomValueCreate" })]
         [Route("[action]")]
         [HttpGet]
         public async Task<IActionResult> Create()
@@ -75,19 +88,17 @@ namespace XUnit.Controllers
             return View(new PersonAddRequest());
         }
 
-        [Route("[action]")]
         [HttpPost]
+        [Route("[action]")]
+        [TypeFilter(typeof(PersonsPostAndPutActionFilter))]
+        // I'm calling the filter but i'm saying isDisabled is equal to false so it does not shot circuiting
+        [TypeFilter(typeof(DisableActionMethodResourceFilter), Arguments = 
+            new object[]
+            {
+                false
+            })]
         public async Task<IActionResult> Create(PersonAddRequest person)
         {
-            if(!ModelState.IsValid)
-            {
-                List<CountryResponse> countries = await _countriesService.GetAllCountries();
-                ViewBag.Countries = countries;
-                ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList(); 
-
-                return View(person);
-            }
-
             PersonResponse personRespose = await _personService.AddPerson(person);
 
             return RedirectToAction("Index", "Persons");
@@ -95,6 +106,7 @@ namespace XUnit.Controllers
 
         [Route("[action]/{id:guid}")]
         [HttpGet]
+        [TypeFilter(typeof(TokenResultFilter))]
         public async Task<IActionResult> Edit(Guid? id)
         {
             PersonResponse? personResponse = await _personService.GetPersonById(id);
@@ -123,8 +135,10 @@ namespace XUnit.Controllers
             return View(personUpdateRequest);
         }
 
-        [Route("[action]/{id:guid}")]
         [HttpPost]
+        [Route("[action]/{id:guid}")]
+        [TypeFilter(typeof(PersonsPostAndPutActionFilter))]
+        [TypeFilter(typeof(TokenAuthorizationFilter))]
         public async Task<IActionResult> Edit(PersonUpdateRequest person)
         {
             PersonResponse? matchingPerson = await _personService.GetPersonById(person.PersonId);
@@ -132,21 +146,6 @@ namespace XUnit.Controllers
             if(matchingPerson == null )
             {
                 return RedirectToAction("index");
-            }
-
-            if (!ModelState.IsValid)
-            {
-                List<CountryResponse> countries = await _countriesService.GetAllCountries();
-                ViewBag.Countries = countries.Select(
-                    temp => new SelectListItem()
-                    {
-                        Text = temp.CountryName,
-                        Value = temp.CountryId.ToString()
-                    });
-
-                ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-                return View(person);
-
             }
 
             PersonResponse personRespose = await _personService.UpdatePerson(person);

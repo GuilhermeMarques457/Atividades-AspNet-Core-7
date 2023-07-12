@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ServiceContracts;
 
-namespace XUnit.Controllers
+namespace SampleApplicationCRUD.Controllers
 {
     [Route("[controller]")]
     public class CountriesController : Controller
